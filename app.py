@@ -9,7 +9,7 @@ if not os.path.exists('temp'):
     os.makedirs('temp')
 
 # Carregar o modelo
-model = load_model('modelos/cat_dog_classifier_basic.h5')
+model = load_model('cat_dog_classifier.h5')
 
 st.title("Classificador de Gato ou Cachorro")
 st.write("Carregue uma imagem de um gato ou um cachorro para obter a classificação.")
